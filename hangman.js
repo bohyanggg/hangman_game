@@ -12,7 +12,8 @@ var programming_languages = [
 	"kotlin",
 	"php",
 	"sql",
-	"ruby"
+	"ruby",
+  "pog",
 ]
 
 let answer = '';
