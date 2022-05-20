@@ -26,9 +26,9 @@ function randomWord() {
   answer = programming_languages[Math.floor(Math.random() * programming_languages.length)];
 }
 
-function enterword(){
+// function enterword(){
 
-}
+// }
 
 // function 
 
