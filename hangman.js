@@ -17,7 +17,7 @@ var programming_languages = [
 ]
 
 let answer = '';
-let maxWrong = 6;
+let maxWrong = 10;
 let mistakes = 0;
 let guessed = [];
 let wordStatus = null;
@@ -25,6 +25,12 @@ let wordStatus = null;
 function randomWord() {
   answer = programming_languages[Math.floor(Math.random() * programming_languages.length)];
 }
+
+function enterword(){
+
+}
+
+// function 
 
 function generateButtons() {
   let buttonsHTML = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter =>
