@@ -23,10 +23,12 @@ let wordStatus = null;
 
 function randomWord() {
   answer = programming_languages[Math.floor(Math.random() * programming_languages.length)];
+  reset();
 }
 
-function enterword(){
+function enterword() {
   answer = window.prompt("Enter your word: ");
+  reset();
 }
 
 function generateButtons() {
@@ -92,7 +94,7 @@ function reset() {
   document.getElementById('hangmanPic').src = './images/0.jpg';
 
   // randomWord();
-  enterword();
+  // enterword();
   guessedWord();
   updateMistakes();
   generateButtons();
@@ -101,6 +103,6 @@ function reset() {
 document.getElementById('maxWrong').innerHTML = maxWrong;
 
 // randomWord();
-enterword();
+// enterword();
 generateButtons();
 guessedWord();

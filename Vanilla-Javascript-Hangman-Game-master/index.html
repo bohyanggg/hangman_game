@@ -10,33 +10,22 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
 
     <title>TikTok Youth Camp Group 2</title>
-    <title>Two-Player Hangman</title>
+    <!-- <title>Two-Player Hangman</title> -->>
 </head>
 
 <body>
-<<<<<<< Updated upstream
-    <div class="container">
-        <h1 class="text-center">Hangman</h1>
-        <div class="float-right">
-            Wrong Guesses: <span id="mistakes">0</span> of
-            <span id="maxWrong"></span>
-        </div>
-        <div class="text-center">
-            <img id="hangmanPic" src="./images/0.jpg" alt="" />
-            <p>Guess the word</p>
-            <p id="wordSpotlight">The word to be guessed goes here</p>
-            <div id="keyboard"></div>
-            <button class="btn btn-info" onClick="reset()">Reset</button>
-        </div>
-    </div>
-=======
+
 <div class="container">
-  <h1 class="text-center">Hangman</h1>
+  <h1 class="text-center">Two-person Hangman</h1>
+
+    <button class="btn btn-info" onClick="enterword()">Choose your own word</button>
+    <button class="btn btn-info" onClick="randomWord()">Random</button>
+
   <div class="float-right">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
   <div class="text-center">
     <img id='hangmanPic' src="./images/0.jpg" alt="">
-    <p>Guess the Programming Language:</p>
-    <p id="wordSpotlight">The word to be guessed goes here</p>
+    <p>Guess the Programming Language: </p>
+    <p id="wordSpotlight">The word to be guessed goes here: </p>
     <div id="keyboard"></div>
     <button class="btn btn-info" onClick="reset()">Reset</button>
   </div> 
